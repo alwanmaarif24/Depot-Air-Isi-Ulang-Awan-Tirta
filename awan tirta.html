@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="logo awan tirta.png">
+<title>Awan Tirta - Air Isi Ulang</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#f4fbff;
+    color:#222;
+}
+
+nav{
+    position:fixed;
+    top:0;
+    width:100%;
+    background:white;
+    box-shadow:0 2px 15px rgba(0,0,0,.08);
+    z-index:1000;
+}
+
+.nav-container{
+    max-width:1200px;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:18px;
+}
+
+.logo{
+    color:#0099ff;
+    font-size:28px;
+    font-weight:800;
+}
+
+nav ul{
+    display:flex;
+    gap:25px;
+    list-style:none;
+}
+
+nav a{
+    text-decoration:none;
+    color:#333;
+    font-weight:600;
+}
+
+.hero{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:100px 20px;
+    background:
+    linear-gradient(rgba(0,153,255,.85),rgba(0,204,255,.85)),
+    url("https://images.unsplash.com/photo-1502741338009-cac2772e18bc");
+    background-size:cover;
+    color:white;
+}
+
+.hero h1{
+    font-size:60px;
+}
+
+.hero p{
+    margin-top:15px;
+    font-size:20px;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:25px;
+    background:white;
+    color:#0099ff;
+    padding:15px 30px;
+    border-radius:50px;
+    text-decoration:none;
+    font-weight:700;
+}
+
+section{
+    padding:80px 20px;
+}
+
+.title{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.cards{
+    max-width:1200px;
+    margin:auto;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card h3{
+    margin-bottom:10px;
+}
+
+.form-box{
+    max-width:700px;
+    margin:auto;
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+input,select,textarea{
+    width:100%;
+    padding:15px;
+    margin-top:10px;
+    margin-bottom:15px;
+    border:1px solid #ddd;
+    border-radius:10px;
+}
+
+button{
+    width:100%;
+    background:#00aaff;
+    color:white;
+    border:none;
+    padding:15px;
+    border-radius:10px;
+    font-size:16px;
+    cursor:pointer;
+    font-weight:700;
+}
+
+iframe{
+    width:100%;
+    border:none;
+    border-radius:20px;
+}
+
+footer{
+    background:#0099ff;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+.whatsapp{
+    position:fixed;
+    right:20px;
+    bottom:20px;
+    background:#25D366;
+    color:white;
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:28px;
+    text-decoration:none;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+<div class="nav-container">
+<div class="logo">Awan Tirta</div>
+
+<ul>
+<li><a href="#beranda">Beranda</a></li>
+<li><a href="#produk">Produk</a></li>
+<li><a href="#tentang">Tentang</a></li>
+<li><a href="#pesan">Pesan</a></li>
+<li><a href="#lokasi">Lokasi</a></li>
+</ul>
+</div>
+</nav>
+
+<section class="hero" id="beranda">
+<div>
+<h1>Awan Tirta</h1>
+<p>Air Isi Ulang Berkualitas untuk Keluarga Anda</p>
+<a href="#pesan" class="btn">Pesan Sekarang</a>
+</div>
+</section>
+
+<section id="produk">
+<h2 class="title">Produk Kami</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>
+    <img src="logo ozon.png" alt="Kangen Water" width="50" style="vertical-align:middle;margin-right:8px;"> 
+     Air Ozon</h3>
+<p>Air Ozon  pada depot air minum adalah disinfektan kuat yang berfungsi membunuh bakteri, virus, dan mikroorganisme berbahaya. Proses ini menjadi standar industri karena memurnikan air dan memperpanjang masa simpan tanpa meninggalkan residu atau mengubah rasa, menjadikannya sangat aman dikonsumsi.</p>
+</div>
+
+<div class="card">
+<h3>
+    <img src="Logo Ro.JPG" alt="Kangen Water" width="50" style="vertical-align:middle;margin-right:8px;"> 
+    Air RO</h3>
+<p>Air RO (Reverse Osmosis) adalah air minum yang diproses menggunakan teknologi penyaringan bertekanan tinggi dengan membran semipermeabel. Sistem ini menyaring kontaminan, bakteri, dan logam berat hingga ukuran molekul terkecil, menghasilkan air murni yang aman, segar, dan menyehatkan bagi tubuh.</p>
+</div>
+
+<div class="card">
+<h3>
+    <img src="logo kangen water.jpeg" alt="Kangen Water" width="50" style="vertical-align:middle;margin-right:8px;"> 
+    Kangen Water</h3>
+<p>Kangen Water adalah merek dagang air alkali terionisasi yang diproses menggunakan mesin ionisasi khusus. Air ini dipromosikan memiliki pH basa (8–9) dan diklaim mengandung antioksidan untuk menetralkan asam tubuh.</p>
+</div>
+
+</div>
+</section>
+
+<section id="tentang">
+<h2 class="title">Tentang Kami</h2>
+
+<div class="form-box">
+<p>
+Awan Tirta hadir sebagai penyedia air isi ulang terpercaya yang mengutamakan kualitas, kebersihan, dan kepuasan pelanggan. Kami menyediakan berbagai pilihan air minum, yaitu Air Ozon, Air RO (Reverse Osmosis), dan Kangen Water yang diproses dengan standar kebersihan tinggi untuk menghasilkan air yang aman dan nyaman dikonsumsi setiap hari
+Kami percaya bahwa akses terhadap air minum berkualitas merupakan kebutuhan penting bagi setiap keluarga. Oleh karena itu, Awan Tirta berkomitmen untuk memberikan pelayanan terbaik dengan harga yang terjangkau, proses pengolahan yang terjaga, serta layanan yang cepat dan ramah
+Selain melayani pengisian ulang langsung di depot, kami juga menyediakan layanan antar untuk memudahkan pelanggan mendapatkan air minum berkualitas tanpa harus keluar rumah. Dengan semangat pelayanan dan kepercayaan pelanggan sebagai prioritas utama, Awan Tirta siap menjadi pilihan terbaik untuk kebutuhan air minum Anda
+</p>
+</div>
+</section>
+
+<section id="pesan">
+<h2 class="title">Form Pemesanan</h2>
+
+<div class="form-box">
+
+<input type="text" id="nama" placeholder="Nama Lengkap">
+
+<input type="text" id="hp" placeholder="opsional: No HP untuk konfirmasi">
+
+<textarea id="alamat" rows="4" placeholder="Alamat"></textarea>
+
+<select id="jenis">
+<option>Air Ozon</option>
+<option>Air RO</option>
+<option>Kangen Water</option>
+</select>
+
+<input type="number" id="jumlah" placeholder="Jumlah Galon">
+
+<select id="metode">
+<option>Diantar ke Sekolah</option>
+<option>Diantar ke Rumah</option>
+<option>Ambil di Depot</option>
+</select>
+
+<button onclick="pesanWA()">
+Pesan Sekarang
+</button>
+
+</div>
+</section>
+
+<section id="lokasi">
+<h2 class="title">Lokasi Kami</h2>
+
+<div style="max-width:1200px;margin:auto;">
+<iframe
+  src="https://maps.google.com/maps?q=Depot%20Air%20Isi%20Ulang%20Awan%20Tirta%2C%20Jl.%20Semangka%20V%20No.12%2C%20Parung%20Panjang%2C%20Kabupaten%20Bogor&t=&z=17&ie=UTF8&iwloc=&output=embed"
+  width="100%"
+  height="450"
+  style="border:0; border-radius:20px;"
+  allowfullscreen=""
+  loading="lazy">
+</iframe>
+</div>
+</section>
+
+<footer>
+© 2026 Awan Tirta - Air Isi Ulang Berkualitas
+</footer>
+
+<script>
+function pesanWA(){
+
+const nama=document.getElementById('nama').value;
+const hp=document.getElementById('hp').value;
+const alamat=document.getElementById('alamat').value;
+const jenis=document.getElementById('jenis').value;
+const jumlah=document.getElementById('jumlah').value;
+const metode=document.getElementById('metode').value;
+
+let pesan=`Halo Awan Tirta
+
+Nama: ${nama}
+No HP: ${hp}
+
+Jenis Air: ${jenis}
+Jumlah Galon: ${jumlah}
+Metode: ${metode}
+
+Alamat:
+${alamat}
+
+Saya ingin memesan air isi ulang.`;
+
+window.open(
+`https://wa.me/6285945440930?text=${encodeURIComponent(pesan)}`,
+'_blank'
+);
+}
+</script>
+</body>
+</html>
